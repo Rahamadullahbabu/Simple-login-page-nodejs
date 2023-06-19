@@ -28,7 +28,7 @@ app.use(session({
 
 app.use('/route', router);
 
-
+// home route
 app.get('/', (req, res) =>{
     res.render('base', { title : "Login Page"});
 })
